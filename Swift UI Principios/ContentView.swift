@@ -12,8 +12,9 @@ struct ContentView: View {
         VStack {
             MapView()
                 .frame(height: 300)
+                .ignoresSafeArea(edges: .top)
             
-            CircleImage()
+            CircleImage("Turtle_rock_feb_2008_detail")
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
