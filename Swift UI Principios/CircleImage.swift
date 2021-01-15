@@ -11,7 +11,7 @@ struct CircleImage: View {
     var body: some View {
         Image("Turtle_rock_feb_2008_detail")
             .resizable()
-            .frame(width: 200.0, height: 200.0)
+            .frame(width: 250.0, height: 250.0)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.gray))
             .shadow(radius: 10)
